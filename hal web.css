@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+display: flex;
+align-items: center;
+background-color: white;
+justify-content: space-between;
+padding: 20px;
+position: sticky;
+margin: 0;
+border-radius:10px;
+top: 0;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+width: 100%;
+z-index: 10px;
+}
+
+hr {
+    top: 20px;
+    border: none;
+    height: 2px;
+    background: black;
+    margin-bottom: 50px;
+}
+
+header p{
+   text-align: left;
+}
+
+.img {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    overflow-x: auto;
+    width: 100vw;
+
+
+}
+.img *{
+    max-width: 500px;
+}
+.img video{
+    border: .1rem solid rgba(0,0,0,.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+ 
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav a {
+    text-decoration:none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-right: 45px;
+}
+ header .navbar a:hover{
+    color: red;
+ }
+
+ .lokasi a {
+    text-decoration: none;
+ }
+
+ .lokasi a:hover{
+    color: orange;
+ }
+
+ 
+ table td{
+    font-size: 20px;
+    /* text-align: */
+    width: 33%;
+
+ }
+ table {
+    margin-left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+ }
+
+ table a{
+    text-decoration: none;
+ }
+ 
+
+ table a:hover{
+    color:orange
+ }
+
+table a{
+   color:#f56600;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+}
+
+.logo img {
+   margin-right: 10px;
+}
+
+@media screen and (max-width: 500px) {
+   
+   html{
+      font-size: 55%;
+      
+   }
+}
